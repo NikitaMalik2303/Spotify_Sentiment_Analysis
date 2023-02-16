@@ -33,7 +33,7 @@ tokenizer = pickle.load(open(path + '/tokenizer.pickle', 'rb'))
 
 lem = pickle.load(open(path + '/lemmatizer.pickle', 'rb'))
 
-model = tf.keras.models.load_model(path + "/spotify_sentiment_analysis")
+model = tf.keras.models.load_model(path + "/spotify_sentiment_analysis/")
 
 
 
